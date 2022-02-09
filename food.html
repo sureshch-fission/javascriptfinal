@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes WebApplication || Taste the Delicious Food</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <!--Header Section-->
+    <header>
+        <nav>
+           <img src="./images/logo.jpg" width="200px" />
+
+            <div class="navbar">
+                <a href="food.html">Home</a>
+               
+                <a href="#" class="show-modal"><i class="fas fa-user"></i><span></span></a>
+
+                <a href="cart.html" class="cart"><i class="fas fa-shopping-cart"></i><span></span></a>
+               
+               
+            </div>
+        </nav>
+    </header>
+
+    <!--main section-->
+
+    <section>
+
+        <!--First Paragraph-->
+        <div class="food-1">
+            <div>
+                <img src="./images/healthymeal.png" />
+
+            </div>
+            <div>
+                <h1>A healthy meal delivered to your door, every single day</h1>
+                <p>The smart 365-days-per-year food subscription that will make you eat healthy again.
+                    Tailored to your personal tastes and nutritional needs.</p>
+
+                <div class="button">
+                    <a href="#" class="btn btn-1">Healthify me</a>
+                    <a href='#' class="btn btn-main">Learn more <svg xmlns="http://www.w3.org/2000/svg"
+                            class="arrowdown-icon" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M14.707 10.293a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 111.414-1.414L9 12.586V5a1 1 0 012 0v7.586l2.293-2.293a1 1 0 011.414 0z"
+                                clip-rule="evenodd" />
+                        </svg></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="modal hidden">
+            <button class="close-modal"></button>
+        </div>
+          
+          
+        <div class="overlay hidden"></div>
+
+        <!---Food details-->
+        <div class="resturants-container">
+            <h1>Resturants Near You</h1>
+            <div class="resturantNames">
+                
+            </div>
+        </div>
+       
+        
+    <!--footer section-->
+
+    <footer>
+        <p>copyright &copy; 2021 by <strong>Recipes</strong>, Inc. All rights reserved.</p>
+    </footer>
+
+    <!--js file--->
+    <script src="./javascriptfiles/resturant.js"></script>
+    <script src="./javascriptfiles/userData.js"></script>
+  
+    
+    
+    
+</body>
+
+</html>

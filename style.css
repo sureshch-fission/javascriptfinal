@@ -1,0 +1,574 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*body*/
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/*section*/
+
+section {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/*nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+
+nav a:hover {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+/*anchor tag*/
+
+a {
+  display: inline-block;
+  color: #000;
+  padding: 12px 16px;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*food-1 Paragraph */
+.food-1 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffec99;
+  border-radius: 10px;
+}
+.food-1 img {
+  width: 400px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.food-1 h1 {
+  font-weight: bold;
+  margin-bottom: 23px;
+  margin-top: 20px;
+}
+.food-1 p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.arrowdown-icon {
+  width: 20px;
+  height: 24px;
+}
+.food-1 .btn-1 {
+  padding: 12px 20px;
+  background-color: #fab005;
+  color: #000;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.btn-2 {
+  padding: 12px 25px;
+  color: #e9ecef;
+  background-color: rgb(2, 125, 240);
+  border-radius: 25px;
+  width: 100%;
+}
+.btn-main {
+  padding: 12px 20px;
+  color: #e9ecef;
+  background-color: rgb(2, 125, 240);
+  border-radius: 5px;
+}
+.btn-2:hover {
+  background-color: #119dfa;
+}
+.recipelink {
+  margin-left: 58px;
+}
+.recipelink:hover {
+  background-color: rgb(191, 233, 236);
+  border-radius: 25px;
+}
+
+/*foods Paragraph 2*/
+.foods {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.food-2 {
+  width: 400px;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  /* padding:20px 80px; */
+  padding: 16px 10px;
+
+  box-shadow: 0px 5px 5px #e9ecef;
+}
+.recipedetails {
+  line-height: 1.5;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px #f1f3f5;
+}
+.recipedetails a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 25px;
+  margin: 10px 10px 10px;
+}
+.recipedetails h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.recipediet ul {
+  padding-right: 40px;
+}
+
+.recipediet li {
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.vegan {
+  background-color: #82c91e;
+}
+.palleo {
+  background-color: #fcc419;
+}
+.recipedetails img {
+  width: 200px;
+  height: 200px;
+}
+.recipedetails ul {
+  margin-left: 20px;
+  list-style: 1.8;
+  margin-bottom: 20px;
+}
+.star-icon {
+  width: 20px;
+  height: auto;
+  stroke: #ff922b;
+}
+.fire-icon {
+  width: 20px;
+  height: auto;
+  stroke: #ff922b;
+}
+.check-icon {
+  width: 20px;
+  height: auto;
+  stroke: #ff922b;
+}
+
+/*list Images*/
+
+.listimages {
+  margin-top: 100px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  justify-content: space-around;
+}
+.listimages i {
+  height: auto;
+  background-color: #fff3bf;
+  border-radius: 25px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.listimages p {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* form*/
+
+input {
+  margin: 1.2rem 0;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-group input {
+  margin: 1.1rem 0;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 3rem auto;
+  overflow: hidden;
+  padding: 40px;
+
+  box-shadow: 10px 10px 30px #f1f3f5;
+}
+.form-container h1 {
+  text-align: center;
+}
+.form-container h6 {
+  text-align: center;
+}
+.resturants-container {
+  margin: 20px;
+}
+.resturants {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.resturants image {
+  width: auto;
+  height: 200;
+}
+.resturant1 h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.resturant-2 {
+  line-height: 1.5em;
+  background-color: #fff;
+  box-shadow: 10px 10px 30px #f1f3f5;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+}
+.resturant-3 {
+  line-height: 1.5em;
+  background-color: #fff;
+  box-shadow: 10px 10px 30px #f1f3f5;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+}
+
+/*veg recipes*/
+.veg-recipes {
+  margin-top: 40px;
+}
+.veg-box {
+  box-shadow: 10px 10px 30px #f1f3f5;
+  line-height: 1.5rem;
+}
+.veg-box img {
+  width: 200;
+  height: auto;
+}
+
+.veg-box p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/*resturant*/
+.star {
+  font-size: 14px;
+  margin-right: 5px;
+}
+.item {
+  margin-left: 300px;
+  margin-top: 66px;
+}
+.resturantNames {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.resturantNames h1 {
+  padding: 10px;
+}
+.resturants-container {
+  padding: 20px;
+}
+
+.resturants-container h1 {
+  text-align: center;
+}
+
+.resturant1 {
+  padding: 30px;
+  box-shadow: 10px 10px 30px #f1f3f5;
+  line-height: 1.5rem;
+}
+
+.recipes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  line-height: 1.5rem;
+}
+
+.recipes img {
+  width: 200px;
+  height: auto;
+}
+
+.recipes h1 {
+  margin-left: 20px;
+}
+.recipes h5 {
+  margin-left: 40px;
+}
+.recipes a {
+  margin-left: 80px;
+  margin-top: 0px;
+}
+
+.resturant img {
+  width: 60px;
+  height: 60px;
+}
+
+.img {
+  height: 200px;
+  width: auto;
+}
+
+/*cart*/
+
+.cartImg {
+  width: 200px;
+}
+
+.table {
+  border: 1px solid black;
+}
+
+.cartItems img {
+  width: 100px;
+}
+.table {
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 22px;
+  border-collapse: collapse;
+}
+.th {
+  border: 1px solid black;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.addtocart {
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 25%;
+}
+.addtocart:hover {
+  background-color: rgb(191, 233, 236);
+  border-radius: 25px;
+}
+.message {
+  background-color: #119dfa;
+  color: #e9ecef;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.danger {
+  background-color: red;
+  color: #fff;
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.hidden {
+  display: none;
+}
+
+.cartbtn {
+  margin-top: 10px;
+}
+.cartbtn:hover {
+  background-color: rgb(191, 233, 236);
+  border-radius: 25px;
+}
+
+.cart h2 {
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.cartContainer {
+  display: flex;
+  justify-content: flex-start;
+
+  margin-left: 20%;
+  margin-top: 40px;
+  max-width: 650px;
+}
+.product {
+  display: flex;
+  margin-right: 100px;
+}
+
+.cartItems {
+  margin-left: 85px;
+}
+
+.product-container {
+  display: flex;
+  justify-self: flex-start;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.productdetail h6 {
+  margin-right: 40px;
+  margin-top: 25px;
+}
+.subtotal {
+  display: flex;
+  justify-content: flex-start;
+}
+.subtotal h5 {
+  margin-top: 10px;
+  margin-left: 42%;
+}
+.dotcircle {
+  color: #ad4728;
+  font-size: 0.8rem;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+.minus {
+  margin-right: 10px;
+}
+.plus {
+  margin-left: 10px;
+}
+.placeorder {
+  background-color: rgb(69, 226, 69);
+  color: #fff;
+  padding: 20px;
+  width: 685px;
+  text-align: center;
+}
+.cart2 {
+  margin-top: 40px;
+  margin-left: 25%;
+}
+
+.show-modal {
+  font-weight: 600;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+p {
+  font-size: 1.8rem;
+}
+.accountlogout:hover {
+  background-color: #119dfa;
+  border-radius: 25px;
+}
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.5rem;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.userdetails {
+  margin-top: 10px;
+  padding: 10px;
+}
+.modal h1 {
+  margin-bottom: 30px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+/*Footer*/
+
+footer {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+footer p {
+  font-size: 20px;
+  text-align: center;
+}

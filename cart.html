@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Your Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!--Navbar--->
+    <header>
+      <nav>
+        <img src="./images/logo.jpg" width="200px" />
+
+        <div>
+          <a href="food.html">Home</a>
+          <a href="#" class="show-modal"
+            ><i class="fas fa-user"></i><span></span
+          ></a>
+          <a href="cart.html" class="cart"
+            ><i class="fas fa-shopping-cart"></i><span></span
+          ></a>
+        </div>
+      </nav>
+    </header>
+
+    <!--user Account details--->
+
+    <div class="modal hidden">
+      <button class="close-modal"></button>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <!--cart items--->
+
+    <div class="cart2">
+      <div class="cart-items">
+        <h2 id="cart-h2">Cart</h2>
+        <div class="cartContainer"></div>
+        <div class="cartItems"></div>
+        <div class="subtotal">
+          <h2 class="cart-h2">Subtotal</h2>
+        </div>
+        <a href="#" class="placeorder" id="placeorder"
+          >Place Order <i class="far fa-arrow-right"></i
+        ></a>
+      </div>
+    </div>
+
+    <!--JavaScript-->
+    <script type="text/javaScript" src="./javascriptfiles/cart.js"></script>
+    <script type="text/javaScript" src="./javascriptfiles/userData.js"></script>
+  </body>
+</html>
